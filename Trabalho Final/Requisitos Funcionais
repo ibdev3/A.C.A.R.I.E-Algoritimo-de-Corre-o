@@ -1,0 +1,121 @@
+Requisitos Funcionais
+
+RF001
+O sistema deve permitir que o aluno faça login utilizando sua matrícula institucional e senha, validando as credenciais via SSO da instituição.
+
+RF002
+O sistema deve permitir que professores acessem o painel de validação por meio de login institucional com perfil diferenciado. 
+
+RF003
+O sistema deve redirecionar o usuário para a tela de erro com mensagem explicativa em caso de falha na autenticação. 
+
+RF004
+O sistema deve disponibilizar três trilhas paralelas e independentes: Social (Espadas), Acadêmica (Corações) e Científica (Estrelas).
+
+RF005
+O sistema deve garantir que as trilhas sejam completamente independentes entre si, sem pré-requisitos cruzados, assegurando equidade entre perfis introvertidos, extrovertidos e analíticos. 
+
+RF006
+O sistema deve exibir o progresso individual do aluno em cada trilha com indicador visual (barra de progresso por trilha).
+
+RF007
+O sistema deve registrar a participação do aluno em campanhas de vacinação e atribuir 15 espadas após validação. 
+
+RF008
+O sistema deve registrar a participação do aluno em jogos universitários e atribuir 20 espadas após validação.
+
+RF009
+O sistema deve registrar a participação do aluno em ações comunitárias e atribuir 12 espadas após validação. 
+
+RF010
+O sistema deve registrar a participação do aluno na semana cultural e atribuir 10 espadas após validação.
+
+RF011
+O sistema deve integrar com o banco de dados acadêmico para verificar a frequência mensal do aluno e atribuir 15 corações quando superior a 90%.
+
+RF012
+O sistema deve integrar com o sistema de notas para detectar conceito SS e atribuir 25 corações por disciplina aprovada com nota máxima.
+
+RF013
+O sistema deve integrar com a biblioteca para verificar a devolução pontual de livros e atribuir 8 corações automaticamente.
+
+RF014
+O sistema deve permitir que o professor registre participação ativa do aluno em aula e atribua 12 corações. 
+
+RF015
+O sistema deve registrar a participação em congressos científicos e atribuir 40 estrelas após comprovação e validação. 
+
+RF016
+O sistema deve registrar o ingresso em projeto de iniciação científica e atribuir 35 estrelas após validação do orientador.
+
+RF017
+O sistema deve registrar a participação em projetos de extensão aprovados e atribuir 25 estrelas após validação.
+
+RF018
+O sistema deve registrar publicação de artigo em periódico com revisão por pares e atribuir 60 estrelas após comprovação. 
+
+RF019
+O sistema deve registrar conclusão de curso de certificação com carga mínima de 20h e atribuir 20 estrelas
+
+RF020
+O sistema deve notificar o professor quando uma missão aguarda validação, exibindo os dados do aluno e a evidência submetida. 
+
+RF021
+O sistema deve permitir que o professor aprove ou rejeite uma missão com campo opcional de justificativa.
+
+RF022
+O sistema deve notificar o aluno sobre o resultado da validação (aprovada ou rejeitada) via push notification. 
+
+RF023
+O sistema deve creditar as moedas correspondentes na carteira digital do aluno somente após aprovação do professor. 
+
+RF024
+O sistema deve manter carteiras digitais separadas para cada tipo de moeda: espadas, corações e estrelas. 
+
+RF025
+O sistema deve exibir o saldo atualizado de cada moeda em tempo real no dashboard do aluno. 
+
+RF026
+O sistema deve registrar todo histórico de créditos e débitos de moedas com data, hora e missão correspondente. 
+
+RF027
+O sistema deve exibir o nível do aluno dentro de cada trilha (ex: Cidadão Ativo, Aluno Dedicado, Pesquisador Curioso). 
+
+RF028
+O sistema deve exibir rankings separados por trilha, permitindo que alunos de perfis diferentes se destaquem em sua vertente.  
+
+RF029
+O sistema deve exibir uma loja de benefícios com os itens disponíveis, seus custos em moedas e respectivas descrições. 
+
+RF030
+O sistema deve verificar se o aluno possui saldo suficiente antes de confirmar o resgate de um benefício. 
+
+RF031
+O sistema deve comunicar ao parceiro a solicitação de resgate, aguardando confirmação antes de debitar as moedas. 
+
+RF032
+O sistema deve debitar as moedas da carteira do aluno e registrar o resgate somente após confirmação do parceiro. 
+
+RF033
+O sistema deve exibir ao aluno um comprovante digital do benefício resgatado com código de validação. 
+
+RF034
+O sistema deve disponibilizar um painel exclusivo ao parceiro para gerenciar benefícios ofertados, estoque e resgates realizados. 
+
+RF035
+O sistema deve verificar automaticamente se o aluno completou pelo menos 2 missões em cada trilha e liberar o Título de Excelência. 
+
+RF036
+O sistema deve exibir o perfil do aluno com nome, matrícula, curso, período, saldo de moedas, nível em cada trilha e característica do aluno conforme a trilha. 
+
+RF037
+O sistema deve gerar relatório de engajamento por turma acessível ao professor, contendo progresso individual e coletivo nas trilhas. 
+
+
+
+
+
+
+
+
+
