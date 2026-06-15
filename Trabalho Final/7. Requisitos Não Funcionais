@@ -1,0 +1,44 @@
+Requisitos Não Funcionais
+
+* Usabilidade
+RNF001
+O aplicativo deve ser intuitivo e acessível a alunos sem treinamento prévio, com interface gamificada que siga padrões de design mobile-first. O tempo para completar ações principais (ver saldo, acessar loja, marcar missão) não deve ultrapassar 3 interações. 
+RNF002
+O sistema deve respeitar boas práticas de acessibilidade (contraste mínimo WCAG AA, compatibilidade com leitores de tela), garantindo que alunos com deficiência visual possam utilizar as funcionalidades principais. 
+
+* Desempenho 
+RNF003
+O sistema deve carregar o dashboard do aluno em até 2 segundos em conexões 4G, e em até 10 segundos em conexões 3G, independentemente do volume de missões e moedas acumuladas. 
+RNF004
+O sistema deve suportar até 1.000 usuários simultâneos sem degradação de desempenho, considerando o pico de acessos durante os períodos de lançamento de resultados acadêmicos. 
+RNF005
+O processo de validação de missão pelo professor deve refletir na carteira do aluno em tempo real, com latência máxima de 3 segundos entre a aprovação e a atualização do saldo. 
+
+* Segurança
+RNF006 
+O sistema deve autenticar usuários exclusivamente via protocolo SSO institucional 
+RNF007
+O sistema deve garantir que apenas o professor responsável pela disciplina possa validar missões vinculadas à sua turma, impedindo validação cruzada entre professores. 
+RNF008
+O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD), com consentimento explícito do aluno para o histórico acadêmico. 
+
+* Confiabilidade 
+RNF009
+O sistema deve garantir disponibilidade mínima de 99,5% ao mês (SLA), exceto em janelas de manutenção previamente comunicadas com ao menos 48 horas de antecedência. 
+RNF010
+O sistema deve realizar backups automáticos do banco de dados a cada 6 horas, com capacidade de recuperação (RTO) em até 2 horas em caso de falha crítica. 
+RNF011
+Nenhuma moeda creditada ou resgatada deve ser perdida em caso de falha de sistema. Todas as transações de carteira devem ser registradas com mecanismo de rollback e log de auditoria 
+
+* Portabilidade 
+RNF012
+O aplicativo deve estar disponível nas plataformas iOS (versão 14 ou superior) e Android (versão 10 ou superior), com versão web responsiva compatível com os navegadores Chrome, Firefox e Safari nas duas versões mais recentes. 
+RNF013
+O sistema deve funcionar em dispositivos com tela entre 4,7 e 6,7 polegadas sem perda de usabilidade, adaptando o layout das trilhas e da loja de benefícios ao tamanho da tela. 
+
+* Manutenibilidade
+RNF014 
+O código do sistema deve seguir padrões de arquitetura limpa (Clean Architecture) com cobertura de testes automatizados mínima de 80% nas funções críticas (autenticação, crédito de moedas, resgate de benefícios). 
+RNF015
+O sistema deve permitir que a equipe gestora da instituição cadastre, edite ou remova missões, benefícios e parceiros sem necessidade de intervenção da equipe de desenvolvimento (painel administrativo no-code/low-code). 
+
